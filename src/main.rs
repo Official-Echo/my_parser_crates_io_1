@@ -1,4 +1,4 @@
-use my_parser_test::*;
+use my_parser_test_crates_io_1::*;
 pub fn main() {
     let parsed_data = list_parser::list("[1,1,2,3,5,8]");
     dbg!(&parsed_data);
